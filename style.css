@@ -1,0 +1,54 @@
+/* Стили для всего фона страницы */
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+}
+
+/* Класс для блока нашего резюме */
+.resume-box {
+    border: 3px solid #4682B4; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); 
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto; 
+    text-align: center; 
+}
+
+h1 {
+    font-size: 28px;
+    color: #000080; 
+    text-shadow: 2px 2px 3px #bbbbbb; 
+}
+
+p {
+    font-size: 20px;
+    color: #333333;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #4682B4; 
+    border-radius: 50%; 
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: #E0FFFF;
+    cursor: pointer;
+}
+
+/* Изменение цвета при наведении */
+button:hover {
+    background-color: #FF69B4; 
+    color: white; 
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+}
